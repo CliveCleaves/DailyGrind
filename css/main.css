@@ -1,0 +1,129 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+/*
+Primary: #f1d647
+  Yellow
+Secondary: #1c3c7e
+  Navy
+Tertiary: #45bdbb
+  Teal
+  64b9ee
+
+*/
+
+body {
+  background: #333;
+}
+/* Header */
+nav.navbar {
+  background: #006563;
+  box-shadow: 0 -2px 10px 4px #333;
+}
+.navbar-inverse .navbar-brand {
+  color: #fff;
+  font-size: 30px;
+}
+#log-line {
+  color: #fff;
+  padding-bottom: 5px;
+}
+
+.jumbotron {
+  margin-bottom: 0;
+  background: url(../img/bamboo-coffee-optimized.jpg) no-repeat 0px 100%;
+  background-size: 120% 124%;
+}
+.jumbotron .container {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background: rgba(231, 231, 228, 0.95);
+}
+.jumbotron .container iframe {
+  display: block;
+  margin: 0 auto;
+}
+.panel-default>.panel-heading {
+  background: #006563;
+  color: #fff;
+}
+
+/* Dropdown Arrows */
+
+#accordion .panel-title a,
+#accordion2 .panel-title a {
+  display: block;
+  position: relative;
+}
+#accordion .panel-title a:after,
+#accordion2 .panel-title a:after {
+  content: "\e114";
+  font-family: "Glyphicons Halflings";
+  right: 0;
+  position: absolute;
+  -webkit-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+  transition: all 250ms ease;
+}
+#accordion .panel-title a.collapsed:after,
+#accordion2 .panel-title a.collapsed:after {
+  content: "\e114";
+  font-family: "Glyphicons Halflings";
+  right: 0;
+  position: absolute;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  -ms-transform: rotate(0deg);
+  transform: rotate(0deg);
+}
+
+
+#lower-content {
+  color: #000;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  background: #e7e7e4;
+  border-top:1px solid #555;
+}
+#lower-content h3 {
+  text-align: center;
+  margin-bottom: 15px;
+  font-size: 30px;
+}
+#about-me img {
+  width: 222px;
+  height: auto;
+  background: #999;
+  border: 1px solid;
+  float: left;
+  position: relative;
+  margin-right: 15px;
+}
+footer {
+  color: #fff;
+  text-align: center;
+  font-size:110%;
+  padding: 20px;
+}
+@media (min-width: 768px) {
+  #about-me img {
+    max-width: 20%;
+  }
+}
+@media (max-width: 768px) {
+  #about-me img {
+    margin: 0 auto;
+    display: block;
+    float: none;
+    top: 0;
+  }
+  #about-me p {
+    width: 100%;
+  }
+}
