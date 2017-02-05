@@ -24,7 +24,9 @@ nav.navbar {
 }
 .navbar-inverse .navbar-brand {
   color: #fff;
-  font-size: 30px;
+  font-size: 47px;
+  font-family: 'Caveat Brush', cursive;
+  letter-spacing: 1px;
 }
 #log-line {
   color: #fff;
