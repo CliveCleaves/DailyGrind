@@ -66,6 +66,25 @@ nav.navbar {
   width: 100%;
   height: 100%;
 }
+#download-link.btn-primary {
+  background: #00659c;
+  color: #fff;
+  transition: all ease-out 250ms;
+  position: relative;
+}
+#download-link.btn-primary:hover {
+  padding: 14px 22px;
+}
+#download-link.btn-primary:active {
+  left: -1px;
+  top: 1px;
+  box-shadow: inset 0px 0px 25px 3px #005380;
+}
+#download-link img {
+  width: 34px;
+  position: relative;
+  top: -3px;
+}
 .panel-default>.panel-heading {
   background: #006563;
   color: #fff;
